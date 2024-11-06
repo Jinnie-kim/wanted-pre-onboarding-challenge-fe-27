@@ -1,5 +1,4 @@
 function TodoList({ todos }: { todos: string[] }) {
-  console.log(todos);
   return todos.map((todo) => {
     return (
       <li>

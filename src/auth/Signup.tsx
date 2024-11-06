@@ -1,4 +1,5 @@
 import Input from '../component/Input';
+import { Link } from 'react-router-dom';
 
 function Signup() {
   return (
@@ -9,7 +10,9 @@ function Signup() {
 
         <Input title="Password" type="password" />
 
-        <button className="p-[10px] bg-green-200">회원가입하기</button>
+        <button className="p-[10px] bg-green-200">
+          <Link to="/todopage">회원가입하기</Link>
+        </button>
       </form>
     </div>
   );
